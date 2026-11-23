@@ -1,16 +1,124 @@
-# React + Vite
+# 🛍️ ShopSphere – Modern E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShopSphere is a modern, responsive e-commerce web application built with **React.js** and **Tailwind CSS**. It provides a smooth shopping experience with product browsing, search, category filtering, cart management, and a complete checkout flow.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **[Visit ShopSphere](https://shopsphere-ten-beige.vercel.app/)**
 
-## React Compiler
+## 📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🏠 Home Page
 
-## Expanding the ESLint configuration
+![ShopSphere Home Page](screenshots/home.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛒 Shopping Cart
+
+![Shopping Cart](screenshots/cart.png)
+
+### 💳 Checkout Page
+
+![Checkout Page](screenshots/checkout.png)
+
+### 📦 Order Success Page
+
+![Order Success Page](screenshots/order-success.png)
+
+## ✨ Features
+
+- Responsive design for mobile, tablet, and desktop.
+- Product listing with modern UI.
+- Search products by name and category.
+- Category-based product filtering.
+- Individual product details pages.
+- Add products to shopping cart.
+- Increase and decrease product quantities.
+- Remove products from cart.
+- Dynamic cart total calculation.
+- Complete checkout flow.
+- Order placement functionality.
+- Order success page with order details.
+- React Context API for state management.
+- React Router DOM for navigation.
+- Lucide React icons.
+
+## 🛠️ Technologies Used
+
+- **React.js** – Frontend library
+- **JavaScript (ES6+)** – Application logic
+- **Tailwind CSS** – Styling and responsive design
+- **React Router DOM** – Client-side routing
+- **Context API** – State management
+- **Lucide React** – Icons
+- **Vite** – Development and build tool
+
+## 📂 Project Structure
+
+```text
+ShopSphere/
+│
+├── public/
+│
+├── screenshots/
+│   ├── home.png
+│   ├── cart.png
+│   ├── checkout.png
+│   └── order-success.png
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── data/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run ShopSphere locally.
+
+**1. Clone the repository**
+
+<pre><code>git clone https://github.com/abdulrehman-mern/ShopSphere.git</code></pre>
+
+**2. Navigate to the project folder**
+
+<pre><code>cd ShopSphere</code></pre>
+
+**3. Install dependencies**
+
+<pre><code>npm install</code></pre>
+
+**4. Start the development server**
+
+<pre><code>npm run dev</code></pre>
+
+**5. Open in browser**
+
+<pre><code>http://localhost:5173</code></pre>
+
+## 🎯 Project Purpose
+
+ShopSphere was developed as a portfolio project to practice and demonstrate frontend development skills using React.js.
+
+The main focus was on building reusable components, managing application state, implementing routing, creating a functional shopping cart, and designing a responsive user interface.
+
+## 👨‍💻 Developer
+
+**Developed by:** Abdul Rehman
+
+**GitHub:** [Abdul Rehman](https://github.com/abdulrehman-mern)
+
+**Project Repository:** [ShopSphere](https://github.com/abdulrehman-mern/ShopSphere)
+
+---
+
+⭐ If you like this project, consider giving it a star!
